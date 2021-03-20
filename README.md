@@ -6,7 +6,7 @@
 ### 팀원
 > [이아현](https://github.com/LAH1203/Study_JavaSpring/tree/main/lah1203)<br>
 > [임혜지](https://github.com/LAH1203/Study_JavaSpring/tree/main/hyeji1221)<br>
-> [정차미](https://github.com/LAH1203/Study_JavaSpring/tree/main/lasilla20)
+> [정차미](https://github.com/LAH1203/Study_JavaSpring/tree/main/lasilla20CHAMI)
 
 ### 스터디 기록
 | Date | Homework | Participants |
