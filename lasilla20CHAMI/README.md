@@ -1,4 +1,4 @@
 
 ===
 
-  {% include 파일명.html id="hfkt6oaBZmM" %}  
+  {% include file.html id="hfkt6oaBZmM" %}  
