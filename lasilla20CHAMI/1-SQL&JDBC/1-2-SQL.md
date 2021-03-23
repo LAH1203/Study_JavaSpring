@@ -44,7 +44,7 @@ flush privileges;
 
 
 
-터미널에서 examples.sql이 있는 폴더로 이동한 후, 다음과 같이 명령을 수행합니다.
+- 터미널에서 examples.sql이 있는 폴더로 이동한 후, 다음과 같이 명령을 수행합니다.
 
 ``mysql   -uconnectuser  -p  DB   <  examples.sql``
 - examples.sql에는 연습을 위한 테이블 생성문과 해당 테이블에 값을 저장하는 입력문이 존재합니다.
@@ -75,3 +75,9 @@ FLUSH PRIVILEGES:
 
 </div>
 </details>
+
+
+
+
+
+<a href="#">Success Button</a>
