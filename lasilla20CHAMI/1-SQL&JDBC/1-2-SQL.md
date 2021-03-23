@@ -32,7 +32,7 @@ flush privileges;
 
 
 
-데이터를 저장하는 공간 Table
+🗃 데이터를 저장하는 공간 Table
 ===
 ### Table의 구성 요소
 - ``열(Column)`` : 테이블 상에서의 단일 종류의 데이터를 나타냄. 특정 데이터 타입 및 크기를 가지고 있습니다.
@@ -41,3 +41,37 @@ flush privileges;
 <br>
 
 ![image](https://user-images.githubusercontent.com/22065527/112100016-cf815d00-8be7-11eb-89b5-501a10348c94.png)
+
+
+
+터미널에서 examples.sql이 있는 폴더로 이동한 후, 다음과 같이 명령을 수행합니다.
+
+``mysql   -uconnectuser  -p  DB   <  examples.sql``
+- examples.sql에는 연습을 위한 테이블 생성문과 해당 테이블에 값을 저장하는 입력문이 존재합니다.
+
+``mysql –uconnectuser -p  DB``
+- 테이블 구조를 확인하기 위한 명령어
+
+``mysql> desc EMPLOYEE;``
+
+<details>
+<summary>참고‼</summary>
+<div markdown="1">       
+
+참고로 설치시에 ``Use Lagacy Password Encryption`` 방식으로 설치했을때에 해당합니다. (이렇게 설정을 해야지만 MySQL 5.x버전에서 사용하던 인증방식과 호환이 됩니다.) 만약, SHA 256기반의 암호화를 사용해야 한다면 'Use Strong Password Encryption for Authentication'을 선택하면 됩니다. 하지만, 이렇게 되면 새 버전(8.x)에서 제공하는 프로그램들만 서버에 접근이 가능하기 때문에 이전에 하던 모든 프로그램을 업그레이드 해야합니다. JDBC Driver도 8.x에 맞는 버전을 사용해야 합니다.
+
+
+mysql -u root -p 
+
+위와 같이 root 계정으로 접속을 합니다. 암호는 설치시 입력한 암호를 사용합니다.
+
+CREATE DATABASE connectdb;
+
+CREATE USER connectuser@localhost IDENTIFIED BY 'connect123!@#';
+
+GRANT ALL PRIVILEGES ON connectdb.* TO 'connectuser'@'localhost';
+
+FLUSH PRIVILEGES:
+
+</div>
+</details>
