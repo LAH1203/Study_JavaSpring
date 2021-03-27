@@ -18,4 +18,4 @@
 > 2. Maven을 이용한 웹 어플리케이션 실습
 ### 5. JDBC
 > 1. [JDBC란?](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/1.%20SQL%20%26%20JDBC%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/5-1.md)
-> 2. JDBC 실습
+> 2. [JDBC 실습](https://github.com/LAH1203/Study_JavaSpring/tree/main/lah1203/1.%20SQL%20%26%20JDBC%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/JDBC%20%EC%8B%A4%EC%8A%B5%EC%BD%94%EB%93%9C)
