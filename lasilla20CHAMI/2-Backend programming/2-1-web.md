@@ -1,6 +1,6 @@
 📧 HTTP (Hypertext Transfer Protocol)
 ===
-  > HTTP는 서버와 클라이언트가 인터넷상에서 데이터를 주고받기 위한 프로토콜(protocol)
+HTTP는 서버와 클라이언트가 인터넷상에서 데이터를 주고받기 위한 프로토콜(protocol)
   
   <br>
   
@@ -23,6 +23,6 @@
 
 ![image](https://cphinf.pstatic.net/mooc/20180119_25/1516354290022wUY3x_PNG/http_-_.png)
 
-
+- 요청 메서드 : GET(요청 body가 없음), PUT, POST, PUSH, OPTIONS 등의 요청 방식이 온다.
 
 
