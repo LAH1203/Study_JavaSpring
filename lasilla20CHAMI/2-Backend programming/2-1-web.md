@@ -20,6 +20,7 @@
 
 ### URL (Uniform Resource Locator)
   > 인터넷 상의 자원의 위치, 특정 웹 서버의 특정 파일에 접근하기 위한 경로 혹은 주소
+
 ![image](https://cphinf.pstatic.net/mooc/20180119_25/1516354290022wUY3x_PNG/http_-_.png)
 
 
