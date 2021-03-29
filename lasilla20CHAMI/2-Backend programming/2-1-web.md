@@ -40,6 +40,12 @@ HTTP는 서버와 클라이언트가 인터넷상에서 데이터를 주고받�
 
 `backend`는 정보를 처리하고 저장하며, 요청에 따라 정보를 내려주는 역할을 한다. 다른 말로 `Sever side`라고도 한다.
 
+- Rendering engne : 구글, 사파리, 인터넷
+- main flow
+1. Html 코드를 DOM Tree로 구성
+2. Render tree construction
+3. Layout of the render tree
+4. Painting the render tree
 
 
 
