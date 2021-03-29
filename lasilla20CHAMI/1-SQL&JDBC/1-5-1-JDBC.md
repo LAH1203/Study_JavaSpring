@@ -45,7 +45,7 @@ while ( rs.next() ){
  ...
  }catch(Exception e{
  e.printStackTrace();
- }finally{
+ }finally{ //무슨 일이 있어도 반드시 실행되는 코드
  DBUtil.close(conn,ps);
  }
 ```
