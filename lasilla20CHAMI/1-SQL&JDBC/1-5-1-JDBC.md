@@ -15,4 +15,9 @@
 5. SQL문에 결과물이 있다면 ResultSet 객체를 생성한다.
 6. 모든 객체를 닫는다.
 
-![image](https://www.boostcourse.org/viewer/image?src=https%3A%2F%2Fcphinf.pstatic.net%2Fmooc%2F20180201_49%2F1517475141729UGWfv_PNG%2F2_11_1_JDBC_.png)
+![image](https://cphinf.pstatic.net/mooc/20180201_49/1517475141729UGWfv_PNG/2_11_1_JDBC_.png)
+
+### JDBC 사용 - 단계별 설명
+1. `import java.sql.*;`
+2. `Class.forName( "com.mysql.jdbc.Driver" );`
+3. `Connection con =  DriverManager.getConnection ( 드라이버주소, ID, PWD );`
