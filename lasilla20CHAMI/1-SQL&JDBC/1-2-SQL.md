@@ -78,6 +78,3 @@ FLUSH PRIVILEGES:
 
 
 
-
-
-<a href="#" color:#404040;>Page UP</a>
