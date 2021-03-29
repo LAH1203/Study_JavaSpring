@@ -26,7 +26,7 @@
 - Statement 생성 : `Statement stmt = con.createStatement();`
 - 질의수행:
 ```mySQL
-stmt.execute(“query”);             //any SQL
+stmt.execute(“query”);           //any SQL
 stmt.executeQuery(“query”);     //SELECT
 stmt.executeUpdate(“query”);   //INSERT, UPDATE, DELETE
 ```
@@ -37,4 +37,15 @@ while ( rs.next() ){
    해당하는 쿼리 받음;  }
 ```
 6. 닫기 : `rs.close(); stmt.close(); con.close();`
-
+- Try 와 Catch
+  > java가 mql를 못 받아 올 수 도 있기 때문에 구문은 `try` 안에다 작성.
+ ```Java
+ try{
+ conn = DBUtil.getConnection();
+ ...
+ }catch(Exception e{
+ e.printStackTrace();
+ }finally{
+ DBUtil.close(conn,ps);
+ }
+```
