@@ -38,7 +38,7 @@ while ( rs.next() ){
 ```
 6. 닫기 : `rs.close(); stmt.close(); con.close();`
 - Try 와 Catch
-  > java가 mql를 못 받아 올 수 도 있기 때문에 구문은 `try` 안에다 작성.
+  > java가 sql를 못 받아 올 수 도 있기 때문에 구문은 `try` 안에다 작성.
  ```Java
  try{
  conn = DBUtil.getConnection();
