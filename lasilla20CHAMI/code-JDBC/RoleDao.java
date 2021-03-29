@@ -32,7 +32,7 @@ public class RoleDao {
 			if (rs.next()) {
 				String description = rs.getString(1);//첫번째 컬럼을 꺼냄
 				int id = rs.getInt("role_id"); //컬럼 이름으로 꺼내도 괜찮음
-				role = new Role(id, description);
+				role = new Role(id, description); //role 객체에 담아서 보내기
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
