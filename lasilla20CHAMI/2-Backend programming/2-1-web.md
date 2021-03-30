@@ -51,4 +51,25 @@ HTTP는 서버와 클라이언트가 인터넷상에서 데이터를 주고받�
 * 브라우저에는 서버에서 받은 문서(HTML, CSS, Javascript)를 해석하고 실행하여 화면에 표현하기 위한 해석기(Parser)들을 가지고 있습니다.
 * 브라우저마다 서로 다른 엔진을 포함하고 있습니다.
 
+<br>
 
+### 웹 코딩 구조
+* site: www.jsbin.com
+```html
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>저를소개해요</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/start.js"></script>
+  </head>
+  <body>
+    <h1>안녕하세요</h1>
+    <div>코드스쿼드 크롱이라고 합니다</div>
+    <script src="js/library.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+```
