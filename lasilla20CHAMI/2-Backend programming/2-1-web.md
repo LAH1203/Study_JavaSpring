@@ -48,7 +48,6 @@ HTTP는 서버와 클라이언트가 인터넷상에서 데이터를 주고받�
 4. Painting the render tree
 
 ![image](https://cphinf.pstatic.net/mooc/20171231_32/1514692895834EoHUo_PNG/webkitflow.png)
-
 * 브라우저에는 서버에서 받은 문서(HTML, CSS, Javascript)를 해석하고 실행하여 화면에 표현하기 위한 해석기(Parser)들을 가지고 있습니다.
 * 브라우저마다 서로 다른 엔진을 포함하고 있습니다.
 
