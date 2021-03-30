@@ -32,9 +32,9 @@ HTTP는 서버와 클라이언트가 인터넷상에서 데이터를 주고받�
 ===
 
 ### 역할
-* 웹콘텐츠를 잘 보여주기 위해 구조를 만들어야 합니다.(신문,책등과 같이) - HTML
-* 적절한 배치와 일관된 디자인 등을 제공해야 합니다.(보기 좋게) - CSS
-* 사용자 요청을 잘 반영해야 합니다.(소통하듯이) - Javascript
+* 웹콘텐츠를 잘 보여주기 위해 구조를 만들어야 합니다.(신문,책등과 같이) - `HTML`
+* 적절한 배치와 일관된 디자인 등을 제공해야 합니다.(보기 좋게) - `CSS`
+* 사용자 요청을 잘 반영해야 합니다.(소통하듯이) - `Javascript`
 
 ### 백 엔드(Back-End)란?
 
@@ -47,7 +47,7 @@ HTTP는 서버와 클라이언트가 인터넷상에서 데이터를 주고받�
 3. Layout of the render tree
 4. Painting the render tree
 
-![i](https://cphinf.pstatic.net/mooc/20171231_32/1514692895834EoHUo_PNG/webkitflow.png)
+![image](https://cphinf.pstatic.net/mooc/20171231_32/1514692895834EoHUo_PNG/webkitflow.png)
 
 * 브라우저에는 서버에서 받은 문서(HTML, CSS, Javascript)를 해석하고 실행하여 화면에 표현하기 위한 해석기(Parser)들을 가지고 있습니다.
 * 브라우저마다 서로 다른 엔진을 포함하고 있습니다.
