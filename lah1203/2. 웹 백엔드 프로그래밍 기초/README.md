@@ -25,17 +25,17 @@ Apache Tomcat은 Apache Software Foundation, ASF에서 개발한 세계에서 �
 4. [Request, Response 객체 이해하기](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/3-4.md)
 
 ### 4. JSP
-1. JSP란?
-2. JSP 라이프싸이클
-3. JSP 문법
-4. JSP 내장객체
+1. [JSP란?](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/4-1.md)
+2. [JSP 라이프싸이클](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/4-2.md)
+3. [JSP 문법](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/4-3.md)
+4. [JSP 내장객체](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/4-4.md)
 
 ### 5. scope
-1. scope란?
-2. page scope
-3. request scope
-4. session scope
-5. application scope
+1. [scope란?](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/5-1.md)
+2. [page scope](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/5-2.md)
+3. [request scope](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/5-3.md)
+4. [session scope](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/5-4.md)
+5. [application scope](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/5-5.md)
 
 ### 6. JSTL & EL
 1. EL(Expression Language)
