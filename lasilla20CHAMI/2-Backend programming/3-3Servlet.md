@@ -39,3 +39,25 @@
 * init()
 * service(request, response)
 * destroy()
+
+<br>
+
+> WAS는 서블릿 요청을 받으면 해당 서블릿이 메모리에 있는지 확인합니다.
+
+![image](https://user-images.githubusercontent.com/22065527/113566649-1475ac80-9648-11eb-980a-44de2b9fce93.png)
+- 요청이 들어왔을 때 응답해야하는 모든 메소드는 `service()` 안에 들어가면 좋다.
+- `was`가 종료되거나, 웹 어플리케이션이 새롭게 갱신될 경우 `destroy()` 메소드가 실행됩니다.
+
+```java
+ if (메모리에 없음) {
+ - 해당 서블릿 클래스를 메모리에 올림
+ - init() 메소드를 실행
+}
+ - service()메소드를 실행
+```
+
+### service(request, response) 메소드
+> HttpServlet의 service메소드는 템플릿 메소드 패턴으로 구현합니다.
+
+- 클라이언트의 요청이 `GET`일 경우에는 자신이 가지고 있는 doGet(request, response)메소드를 호출
+- 클라이언트의 요청이 `Post`일 경우에는 자신이 가지고 있는 doPost(request, response)를 호출
