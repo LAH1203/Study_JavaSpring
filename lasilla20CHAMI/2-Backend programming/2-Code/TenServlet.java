@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class TenServlet
  */
+//사용자 지정으로 변경가능(주소값 달라짐)
 @WebServlet("/ten")
 public class TenServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -27,7 +28,10 @@ public class TenServlet extends HttpServlet {
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
+	//요청객체
+	//받는 객체
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//어떤 type을 받을건지
 		response.setContentType("text/html;charset=utf-8");
 		PrintWriter out = response.getWriter();
 		out.print("<h1>1부터 10까지 출력합니다.<h1>");
@@ -38,3 +42,4 @@ public class TenServlet extends HttpServlet {
 	}
 
 }
+//run all -> sever에서 실행
