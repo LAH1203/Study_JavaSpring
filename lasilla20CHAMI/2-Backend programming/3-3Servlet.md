@@ -33,3 +33,10 @@
 ### 서블렛 3.0 spec 미만에서 사용하는 방법
 - 1~10까지 출력하도록 하는 `TenServlet`
 - - [코드 링크](https://github.com/LAH1203/Study_JavaSpring/blob/main/lasilla20CHAMI/2-Backend%20programming/2-Code/Web.xml)
+
+### LifecycleServlet
+> HttpServlet의 3가지 메소드를 오버라이딩
+* init()
+* service(request, response)
+* destroy()
+- -[코드 링크]
