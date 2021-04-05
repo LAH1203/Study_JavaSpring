@@ -22,7 +22,14 @@
 
 <br>
 
-### 실습
+📢 실습
+===
+### 서블렛 3.0 spec 이상에서 사용하는 방법
 - new project → Dynamic web programming
 - Servlet 3.1 spec으로 exam31이라는 프로젝트를 생성
-- 1~10 출력하는 Ten Servlet을 작성
+- 1~10 출력하는 `TenServlet`을 작성
+- - [코드 링크]
+
+### 서블렛 3.0 spec 미만에서 사용하는 방법
+- 1~10까지 출력하도록 하는 `TenServlet`
+- - [코드 링크]
