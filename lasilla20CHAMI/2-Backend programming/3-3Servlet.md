@@ -20,7 +20,9 @@
 2. Servlet 3.0 spec미만에서 사용하는 방법
 - servlet을 등록할 때 web.xml 파일에 등록합니다.
 
-## 실습
+<br>
+
+### 실습
 - new project → Dynamic web programming
 - Servlet 3.1 spec으로 exam31이라는 프로젝트를 생성
 - 1~10 출력하는 Ten Servlet을 작성
