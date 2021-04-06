@@ -1,8 +1,9 @@
 객체의 범위 Scope
 ===
 
-![image](https://cphinf.pstatic.net/mooc/20180129_297/1517205425406SvaC6_JPEG/2_5_1_scope_.jpg)
 > 변수를 어떤 범위 내에서 사용하기 위해서는 스코프(scope)라는 것에 대해서 알아야 합니다.
+
+![image](https://cphinf.pstatic.net/mooc/20180129_297/1517205425406SvaC6_JPEG/2_5_1_scope_.jpg)
 - Application : 웹 어플리케이션이 시작되고 종료될 때까지 변수가 유지되는 경우 사용
 - Session : 웹 브라우저 별로 변수가 관리되는 경우 사용
 - Request : http요청을 WAS가 받아서 웹 브라우저에게 응답할 때까지 변수가 유지되는 경우 사용. 하나의 요청이 들어와서 응답이 나갈 때까지.
