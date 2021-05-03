@@ -17,6 +17,8 @@ JSTL(JSP Standard Tag Library)은 JSP 페이지에서 조건문 처리, 반복�
 - JSTL이 제공하는 태그의 종류
 ![image](https://cphinf.pstatic.net/mooc/20180130_273/1517290494334HrB7S_PNG/2_6_2_jstl___.PNG)
 
+<br>
+
 - 중요 태그들
 ![image](https://user-images.githubusercontent.com/22065527/116867818-ae7d4480-ac48-11eb-8581-0e97950aa9a3.png)
 ![image](https://user-images.githubusercontent.com/22065527/116867909-c9e84f80-ac48-11eb-805c-d426bb88e63d.png)
