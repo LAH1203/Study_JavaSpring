@@ -62,4 +62,3 @@ JSTL(JSP Standard Tag Library)은 JSP 페이지에서 조건문 처리, 반복�
 ### 코어 태그: 흐름제어 태그 - choose
 
 ![image](https://user-images.githubusercontent.com/22065527/116869478-c73b2980-ac4b-11eb-8466-838513dbd095.png)
-
