@@ -105,3 +105,47 @@ Kang kyungmi
 </body>
 </html>
 ```
+
+### 코어 태그: 흐름제어태그 - redirect
+
+![image](https://cphinf.pstatic.net/mooc/20180130_170/1517293246119dFJ4F_PNG/2_6_2__redirect.PNG)
+
+- redirect의 활용
+<details>
+<summary>jtl06.jsp</summary>
+<div markdown="1">
+    
+```jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
+<c:redirect url="jstlRedirectPage.jsp"></c:redirect>
+```
+</div>
+</details>
+
+<details>
+<summary>jstlRedirectPage.jsp</summary>
+<div markdown="1">       
+
+```jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1> redirect된 화면입니다.</h1>
+</body>
+</html>
+```
+</div>
+</details>
+
+### 코어 태그: 기타태그 - out
+
+![image](https://cphinf.pstatic.net/mooc/20180130_55/1517293404340WP4J3_PNG/2_6_2__out.PNG)
+
