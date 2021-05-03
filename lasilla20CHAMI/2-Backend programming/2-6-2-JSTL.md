@@ -51,23 +51,23 @@ JSTL(JSP Standard Tag Library)은 JSP 페이지에서 조건문 처리, 반복�
 <br>
 <br>
 
-### 코어태그: 변수 지원 태그 - 프로퍼티, 맵의 처리
+### 1. 코어태그: 변수 지원 태그 - 프로퍼티, 맵의 처리
 
 ![image](https://cphinf.pstatic.net/mooc/20180226_103/1519633640114VKW2d_PNG/2.png)
 
-### 코어 태그: 흐름제어 태그 - if
+### 2. 코어 태그: 흐름제어 태그 - if
 
 ![image](https://cphinf.pstatic.net/mooc/20180226_83/1519633710402BlJ2W_PNG/3.png)
 
-### 코어 태그: 흐름제어 태그 - choose
+### 3. 코어 태그: 흐름제어 태그 - choose
 
 ![image](https://user-images.githubusercontent.com/22065527/116869478-c73b2980-ac4b-11eb-8466-838513dbd095.png)
 
-### 코어 태그: 흐름제어 태그 - forEach
+### 4. 코어 태그: 흐름제어 태그 - forEach
 
 ![image](https://cphinf.pstatic.net/mooc/20180130_218/1517292735244tmWgM_PNG/2_6_2__forEach.PNG)
 
-### 코어 태그: 흐름제어태그 - import
+### 5. 코어 태그: 흐름제어태그 - import
 
 ![image](https://cphinf.pstatic.net/mooc/20180130_93/1517293018908uGgzT_PNG/2_6_2__import.PNG)
 
@@ -75,7 +75,6 @@ JSTL(JSP Standard Tag Library)은 JSP 페이지에서 조건문 처리, 반복�
 <details>
 <summary>jstlValue.jsp</summary>
 <div markdown="1">       
-
 
 
 ```jsp
@@ -106,7 +105,7 @@ Kang kyungmi
 </html>
 ```
 
-### 코어 태그: 흐름제어태그 - redirect
+### 6. 코어 태그: 흐름제어태그 - redirect
 
 ![image](https://cphinf.pstatic.net/mooc/20180130_170/1517293246119dFJ4F_PNG/2_6_2__redirect.PNG)
 
@@ -145,7 +144,6 @@ Kang kyungmi
 </div>
 </details>
 
-### 코어 태그: 기타태그 - out
-
+### 7. 코어 태그: 기타태그 - out
 ![image](https://cphinf.pstatic.net/mooc/20180130_55/1517293404340WP4J3_PNG/2_6_2__out.PNG)
 
