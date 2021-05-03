@@ -6,10 +6,12 @@ JSTL(JSP Standara Tag Library)
 ### JSTL이란?
 JSTL(JSP Standard Tag Library)은 JSP 페이지에서 조건문 처리, 반복문 처리 등을 html `tag`형태로 작성할 수 있게 도와줍니다.
 - 예시
+
 ![image](https://cphinf.pstatic.net/mooc/20180130_149/1517289583487Ac0YJ_PNG/2_6_2_jstl.PNG)
 
 ### JSTL을 사용하려면?
 - [사이트](http://tomcat.apache.org/download-taglibs.cgi)에서 3가지 jar파일을 다운로드 한 후 WEB-INF/lib/ 폴더에 복사를 한다.
+
 ![image](https://cphinf.pstatic.net/mooc/20180130_248/1517289861733CmzUv_PNG/2_6_2_jstl_.PNG)
 
 - JSTL이 제공하는 태그의 종류
