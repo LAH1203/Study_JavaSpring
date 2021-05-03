@@ -123,10 +123,7 @@ Kang kyungmi
 </div>
 </details>
 
-<details>
-<summary>jstlRedirectPage.jsp</summary>
-<div markdown="1">       
-
+- jstlRedirectPage.jsp
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -141,8 +138,6 @@ Kang kyungmi
 </body>
 </html>
 ```
-</div>
-</details>
 
 ### 7. 코어 태그: 기타태그 - out
 ![image](https://cphinf.pstatic.net/mooc/20180130_55/1517293404340WP4J3_PNG/2_6_2__out.PNG)
