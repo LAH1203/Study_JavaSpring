@@ -20,3 +20,13 @@
 - 마치 지역변수처럼 사용된다는 것이 다른 Scope들과 다르다.
 - JSP 에서 `pageScope`에 값을 저장한 후 해당 값을 EL표기법 등에서 사용할 때 사용.
 - 지역 변수처럼 해당 JSP나 서블릿이 실행되는 동안에만 정보를 유지하고자 할 때 사용.
+ 
+ 
+ ### Request Scope
+
+> http 요청을 WAS가 받아서 웹 브라우저에게 응답할 때까지 변수값을 유지하고자 할 경우 사용한다.
+- `HttpServletRequest` 객체를, `forward` 시 값을 유지하고자 사용한다.
+- JSP에서는 `request` 내장 변수를 사용한다.
+- 서블릿에서는 `HttpServletRequest` 객체를 사용한다.
+- 값을 저장할 때는 `request` 객체의 `setAttribute()`메소드를, 읽어 들일 때는 `request` 객체의 `getAttribute()`메소드를 사용한다.
+- 앞에서 forward에 대하여 배울 때 forward 하기 전에 request 객체의 setAttribute() 메소드로 값을 설정한 후, 서블릿이나 jsp에게 결과를 전달하여 값을 출력하도록 하였는데 이렇게 포워드 되는 동안 값이 유지되는 것이 Request scope를 이용했다고 합니다.
