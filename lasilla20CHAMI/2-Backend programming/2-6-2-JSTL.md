@@ -1,4 +1,4 @@
-JSTL(JSP Standara Tag Library)
+JSTL (JSP Standara Tag Library)
 ==
 들어가기에 앞서…
 > 프론트 개발자가 JSP를 수정하는데, JSP 안에 자바코드와 HTML코드가 섞여 있다면 수정할 때 굉장히 어려움을 느끼게 될 가능성이 크다.
