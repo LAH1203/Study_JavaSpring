@@ -48,3 +48,15 @@ JSTL(JSP Standard Tag Library)은 JSP 페이지에서 조건문 처리, 반복�
 </body>
 </html>
 ```
+
+<br>
+<br>
+
+### 코어태그: 변수 지원 태그 - 프로퍼티, 맵의 처리
+
+![image](https://cphinf.pstatic.net/mooc/20180226_103/1519633640114VKW2d_PNG/2.png)
+
+### 코어 태그: 흐름제어 태그 - if
+
+![image](https://cphinf.pstatic.net/mooc/20180226_83/1519633710402BlJ2W_PNG/3.png)
+
