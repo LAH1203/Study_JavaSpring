@@ -72,20 +72,21 @@ JSTL(JSP Standard Tag Library)은 JSP 페이지에서 조건문 처리, 반복�
 ![image](https://cphinf.pstatic.net/mooc/20180130_93/1517293018908uGgzT_PNG/2_6_2__import.PNG)
 
 ### import의 활용
-- jstlValue.jsp
+<details>
+<summary>jstlValue.jsp</summary>
+<div markdown="1">       
+
+
 
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 Kang kyungmi
 ```
+</div>
+</details>
 
-<details>
-<summary>jstl05.jsp</summary>
-<div markdown="1">
-    
-    
-    
+- jstl05.jsp
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -104,5 +105,3 @@ Kang kyungmi
 </body>
 </html>
 ```
-</div>
-</details>
