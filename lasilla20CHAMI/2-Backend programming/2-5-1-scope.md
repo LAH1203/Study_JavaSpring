@@ -56,3 +56,4 @@
 - ApplicationScope01 서블릿에서는 Application scope으로 `value`에 1값을 저장한다.
 - ApplicationScope02는 Application scope로 저장된 `value`의 값에 2를 더한 후 그 결과를 출력한다.
 - Application scope 웹 어플리케이션을 사용하는 모든 브라우저에서 같은 값을 사용하게 한다. 테스트를 위해서 크롬과 인터넷 익스플로어를 사용해 결과를 확인한다.
+
