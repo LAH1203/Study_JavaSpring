@@ -28,7 +28,6 @@
 - `HttpServletRequest` 객체를, `forward` 시 값을 유지하고자 사용한다.
 - JSP에서는 `request` 내장 변수를 사용한다.
 - 서블릿에서는 `HttpServletRequest` 객체를 사용한다.
-- 값을 저장할 때는 `request` 객체의 `setAttribute()`메소드를, 읽어 들일 때는 `request` 객체의 `getAttribute()`메소드를 사용한다.
 - 앞에서 forward에 대하여 배울 때 forward 하기 전에 request 객체의 setAttribute() 메소드로 값을 설정한 후, 서블릿이나 jsp에게 결과를 전달하여 값을 출력하도록 하였는데 이렇게 포워드 되는 동안 값이 유지되는 것이 Request scope를 이용했다고 합니다.
 
 ### Session Scope
@@ -37,5 +36,14 @@
 - `HttpSession` 인터페이스를 구현한 객체를 사용한다.
 - JSP에서는 `session` 내장 변수를 사용한다.
 - 서블릿에서는 `HttpServletReques`t의 `getSession()`메소드를 이용하여 `session` 객체를 얻는다.
-- 값을 저장할 때는 `session` 객체의 `setAttribute()`메소드를, 읽어 들일 때는 `session` 객체의 `getAttribute()`메소드를 사용한다.
 - 장바구니처럼 사용자별로 유지가 되어야 할 정보가 있을 때 사용한다.
+
+### Application Scope
+
+> 웹 어플리케이션이 시작되고 종료될 때까지 변수를 사용할 수 있다.
+- `ServletContext` 인터페이스를 구현한 객체를 사용한다.
+- jsp에서는 `application` 내장 객체를, 서블릿의 경우는 `getServletContext()`메소드를 이용하여 `application`객체를 이용한다.
+- 웹 어플리케이션 하나당 하나의 `application`객체가 사용된다.
+- 모든 클라이언트가 공통으로 사용해야 할 값들이 있을 때 사용한다.
+
+- - 공통적으로 값을 저장할 때는 해당 객체의 `setAttribute()`메소드를, 읽어 들일 때는 해당 객체의 `getAttribute()`메소드를 사용한다.
