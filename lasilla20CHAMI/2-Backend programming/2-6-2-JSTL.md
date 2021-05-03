@@ -62,3 +62,47 @@ JSTL(JSP Standard Tag Library)은 JSP 페이지에서 조건문 처리, 반복�
 ### 코어 태그: 흐름제어 태그 - choose
 
 ![image](https://user-images.githubusercontent.com/22065527/116869478-c73b2980-ac4b-11eb-8466-838513dbd095.png)
+
+### 코어 태그: 흐름제어 태그 - forEach
+
+![image](https://cphinf.pstatic.net/mooc/20180130_218/1517292735244tmWgM_PNG/2_6_2__forEach.PNG)
+
+### 코어 태그: 흐름제어태그 - import
+
+![image](https://cphinf.pstatic.net/mooc/20180130_93/1517293018908uGgzT_PNG/2_6_2__import.PNG)
+
+### import의 활용
+- jstlValue.jsp
+
+```jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+Kang kyungmi
+```
+
+<details>
+<summary>jstl05.jsp</summary>
+<div markdown="1">
+    
+    
+    
+```jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
+<%@ page import="java.util.*" %>
+<c:import url="http://localhost:8080/webapp/jstlValue.jsp" var="urlValue" scope="request"></c:import>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+읽어들인 값 : ${urlValue}
+</body>
+</html>
+```
+</div>
+</details>
