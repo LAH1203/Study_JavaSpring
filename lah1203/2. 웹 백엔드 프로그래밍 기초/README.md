@@ -38,5 +38,5 @@ Apache Tomcat은 Apache Software Foundation, ASF에서 개발한 세계에서 �
 5. [application scope](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/5-5.md)
 
 ### 6. JSTL & EL
-1. EL(Expression Language)
-2. JSTL(JSP Standard Tag Library)
+1. [EL(Expression Language)](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/6-1.md)
+2. [JSTL(JSP Standard Tag Library)](https://github.com/LAH1203/Study_JavaSpring/blob/main/lah1203/2.%20%EC%9B%B9%20%EB%B0%B1%EC%97%94%EB%93%9C%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EA%B8%B0%EC%B4%88/6-2.md)
