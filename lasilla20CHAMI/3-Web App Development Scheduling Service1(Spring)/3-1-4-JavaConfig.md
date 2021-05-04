@@ -20,5 +20,11 @@ JAVA Config
 ### Java Config를 이용해 설정하기
 > @Configuration 은 스프링 설정 클래스라는 의미를 가집니다. JavaConfig로 설정을 할 클래스 위에는 @Configuration가 붙어 있어야 합니다.
 
+⇒ [ApplicationConfig.java]()
+
 `ApplicationContext`중에서 `AnnotationConfigApplicationContext`는 JavaConfig 클래스를 읽어들여 IoC와 DI를 적용하게 됩니다.
 이때 설정파일 중에 @Bean이 붙어 있는 메소드들을 `AnnotationConfigApplicationContext`는 자동으로 실행하여 그 결과로 리턴하는 객체들을 기본적으로 싱글턴으로 관리를 하게 됩니다.
+
+⇒[ApplicationContextExam03.java]()
+
+- ApplicationConfig2.java
