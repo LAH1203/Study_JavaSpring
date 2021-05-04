@@ -51,7 +51,6 @@ class 자동차 {
      엔진 v5;
 }
 ```
-
 ![image](https://cphinf.pstatic.net/mooc/20181218_190/1545137156742y8WiS_JPEG/3.7.2-2.jpg)
 
 ### Spring에서 제공하는 IoC/DI 컨테이너
