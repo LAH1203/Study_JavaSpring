@@ -71,5 +71,5 @@ xml setting
 - 기본생성자를 가지고 있습니다.
 - 필드는 private하게 선언합니다.
 - getter, setter 메소드를 가집니다.
-- ***getName() setName()*** 메소드를 ***name 프로퍼티(property)*** 라고 합니다. (용어 중요)
+- *getName() setName()* 메소드를 *name 프로퍼티(property)* 라고 합니다. (용어 중요)
 
