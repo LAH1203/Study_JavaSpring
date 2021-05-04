@@ -239,7 +239,7 @@ public class CalculatorServiceTest {
 </div>
 </details>
 
-기존 테스트 클래스 위에 *@RunWith(SpringJUnit4ClassRunner.class)*를 붙입니다.
+기존 테스트 클래스 위에 *@RunWith(SpringJUnit4ClassRunner.class)* 를 붙입니다.
 
 *@RunWith* 어노테이션은 JUnit이 제공하는 어노테이션입니다.
 
@@ -248,16 +248,16 @@ JUnit은 확장기능을 가지는데, 스프링에서는 JUnit을 확장하도�
 해당 코드는 JUnit이 테스트 코드를 실행할 때 스프링 빈 컨테이너가 내부적으로 생성되도록 합니다.
 
 
-*@ContextConfiguration(classes = {ApplicationConfig.class})*은 내부적으로 생성된 스프링 빈 컨테이너가
+*@ContextConfiguration(classes = {ApplicationConfig.class})* 은 내부적으로 생성된 스프링 빈 컨테이너가
 
 사용할 설정파일을 지정할 때 사용합니다.
  
 
 위에서 설명한 2줄이 테스트 클래스 위에 있으면, 테스트 클래스 자체가 빈(Bean)객체가 되어 스프링에서 관리되게 됩니다. 
 
-*@Autowired
+*@Autowired*
 
-*CalculatorService calculatorService;
+*CalculatorService calculatorService;* 
 
 *CalcultorServiceTest* 클래스가 빈으로 관리되면서, 스프링 빈 컨테이너는 *CalculatorService*를 주입(Inject)할 수 있게 됩니다. 이렇게 주입된 클래스를 테스트하면 됩니다.
 
