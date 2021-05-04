@@ -142,5 +142,5 @@ JUnit테스트 클래스 실행은 이클립스를 사용할 경우 이클립스
 <br>
 
 ### 4. JUnit의 중요 assert
-![image](https://cphinf.pstatic.net/mooc/20200211_44/1581398989118HbTys_PNG/3.png)
 
+![image](https://cphinf.pstatic.net/mooc/20200211_44/1581398989118HbTys_PNG/3.png)
