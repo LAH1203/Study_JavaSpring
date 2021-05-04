@@ -58,4 +58,18 @@ class 자동차 {
 - `BeanFactory` : IoC/DI에 대한 기본 기능을 가지고 있습니다.
 - `ApplicationContext` : BeanFactory의 모든 기능을 포함하며, 일반적으로 BeanFactory보다 추천됩니다. 트랜잭션처리, AOP등에 대한 처리를 할 수 있습니다. BeanPostProcessor, BeanFactoryPostProcessor등을 자동으로 등록하고, 국제화 처리, 어플리케이션 이벤트 등을 처리할 수 습니다.
 - BeanPostProcessor : 컨테이너의 기본로직을 오버라이딩하여 인스턴스화 와 의존성 처리 로직 등을 개발자가 원하는 대로 구현 할 수 있도록 합니다.
-- BeanFactoryPostProcessor : 설정된 메타 데이터를 커스터마이징 할 수 있습니다
+- BeanFactoryPostProcessor : 설정된 메타 데이터를 커스터마이징 할 수 있습니다.
+
+<br>
+
+xml setting
+==
+### Bean class란?
+
+> 예전에는 Visual 한 컴포넌트를 Bean이라고 불렀지만, 근래 들어서는 일반적인 Java클래스를 Bean클래스라고 보통 말합니다.
+
+- 기본생성자를 가지고 있습니다.
+- 필드는 private하게 선언합니다.
+- getter, setter 메소드를 가집니다.
+- ***getName() setName()*** 메소드를 ***name 프로퍼티(property)*** 라고 합니다. (용어 중요)
+
