@@ -24,6 +24,10 @@ Spring JDBC
 3. SQL 조회, 업데이트, 저장 프로시저 호출, ResultSet 반복호출 등을 실행합니다.
 4. JDBC 예외가 발생할 경우 org.springframework.dao패키지에 정의되어 있는 일반적인 예외로 변환시킵니다.
 
+<br>
+<br>
+<br>
+
 🚩 실습 코드
 ==
 
@@ -31,25 +35,122 @@ Spring JDBC
 ```java
 int rowCount = this.jdbcTemplate.queryForInt("select count(*) from t_actor");
 ```
-3. 변수 바인딩 사용하기
+2. 변수 바인딩 사용하기
 ```java
 int countOfActorsNamedJoe = this.jdbcTemplate.queryForInt("select count(*) from t_actor where first_name = ?", "Joe");
 ```
-4. String 값으로 결과 받기
+
+3. String 값으로 결과 받기
 ```java
 String lastName = this.jdbcTemplate.queryForObject("select last_name from t_actor where id = ?", new Object[]{1212L}, String.class); 
 ```
-5. 한 건 조회하기
-6. 여러 건 조회하기
-7. 중복 코드 제거
+
+<details>
+<summary>4. 한 건 조회하기</summary>
+<div markdown="1">       
+
 ```java
+Actor actor = this.jdbcTemplate.queryForObject(
+
+  "select first_name, last_name from t_actor where id = ?",
+
+  new Object[]{1212L},
+
+  new RowMapper<Actor>() {
+
+    public Actor mapRow(ResultSet rs, int rowNum) throws SQLException {
+
+      Actor actor = new Actor();
+
+      actor.setFirstName(rs.getString("first_name"));
+
+      actor.setLastName(rs.getString("last_name"));
+
+      return actor;
+    }
+  });
 ```
-8. INSERT 하기
+
+</div>
+</details>
+
+<details>
+<summary>5. 여러 건 조회하기</summary>
+<div markdown="1">       
+
 ```java
+List<Actor> actors = this.jdbcTemplate.query(
+
+  "select first_name, last_name from t_actor",
+
+  new RowMapper<Actor>() {
+
+    public Actor mapRow(ResultSet rs, int rowNum) throws SQLException {
+
+      Actor actor = new Actor();
+
+      actor.setFirstName(rs.getString("first_name"));
+
+      actor.setLastName(rs.getString("last_name"));
+
+      return actor;
+
+    }
+
+  });
+
 ```
-9. UPDATE 하기
+
+</div>
+</details>
+
+6. 중복 코드 제거
 ```java
+public List<Actor> findAllActors() {
+
+  return this.jdbcTemplate.query( "select first_name, last_name from t_actor", new ActorMapper());
+
+}
+
+private static final class ActorMapper implements RowMapper<Actor> {
+
+  public Actor mapRow(ResultSet rs, int rowNum) throws SQLException {
+
+    Actor actor = new Actor();
+
+    actor.setFirstName(rs.getString("first_name"));
+
+    actor.setLastName(rs.getString("last_name"));
+
+    return actor;
+  }
+}
 ```
-10. DELETE 하기
+7. INSERT 하기
 ```java
+this.jdbcTemplate.update("insert into t_actor (first_name, last_name) values (?, ?)",  "Leonor", "Watling");
 ```
+8. UPDATE 하기
+```java
+this.jdbcTemplate.update("update t_actor set = ? where id = ?",  "Banjo", 5276L);
+```
+9. DELETE 하기
+```java
+this.jdbcTemplate.update("delete from actor where id = ?", Long.valueOf(actorId));
+```
+
+### JdbcTemplate외의 접근방법
+
+- **NamedParameterJdbcTemplate**
+
+- - JdbcTemplate에서 JDBC statement 인자를 ?를 사용하는 대신 파라미터명을 사용하여 작성하는 것을 지원
+
+- **SimpleJdbcTemplate**
+- - JdbcTemplate과 NamedParameterJdbcTemplate 합쳐 놓은 템플릿 클래스
+- - 이제 JdbcTemplate과 NamedParameterJdbcTemplate에 모든 기능을 제공하기 때문에 삭제 예정될 예정 (deprecated)
+
+- **SimpleJdbcInsert**
+- - 테이블에 쉽게 데이터 insert 기능을 제공
+
+
+
