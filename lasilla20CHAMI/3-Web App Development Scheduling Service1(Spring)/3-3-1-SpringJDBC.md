@@ -195,9 +195,12 @@ DAO
 <br>
 
 커넥션을 반납하지 않으면 어떻게 될까요?
-
 ![image](https://cphinf.pstatic.net/mooc/20180208_14/15180684447693OANG_JPEG/3_8_2_ConnectionPool.jpg)
 
 ### DataSource란?
 
 > DataSource는 커넥션 풀을 관리하는 목적으로 사용되는 객체입니다. DataSource를 이용해 커넥션을 얻어오고 반납하는 등의 작업을 수행합니다.
+
+### Spring JDBC를 이용한 DAO작성 실습
+
+![image](https://cphinf.pstatic.net/mooc/20180208_103/1518068520531pRbvK_PNG/3_8_2_Spring_JDBC__DAO_.png)
