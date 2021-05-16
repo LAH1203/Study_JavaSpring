@@ -28,6 +28,6 @@
 - 2021.05.10
   - 3
 
-### [4. 웹 앱 개발 예약 서비스 2/4](https://github.com/LAH1203/Study_JavaSpring/tree/main/lah1203/3.%20%EC%9B%B9%20%EC%95%B1%20%EA%B0%9C%EB%B0%9C%20%EC%98%88%EC%95%BD%20%EC%84%9C%EB%B9%84%EC%8A%A4%20-%202)
+### [4. 웹 앱 개발 예약 서비스 2/4](https://github.com/LAH1203/Study_JavaSpring/tree/main/lah1203/4.%20%EC%9B%B9%20%EC%95%B1%20%EA%B0%9C%EB%B0%9C%20%EC%98%88%EC%95%BD%20%EC%84%9C%EB%B9%84%EC%8A%A4%20-%202)
 - 2021.05.16 ~ 17
   - 1 ~ 5
